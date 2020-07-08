@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.whispersystems.curve25519.JavaCurve25519Test" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-07-04T18:42:08" hostname="Kabirs-MacBook-Pro.local" time="0.58">
+  <properties/>
+  <testcase name="testCheckProvider" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.011"/>
+  <testcase name="testAgreement" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.031"/>
+  <testcase name="testRandomAgreements" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.292"/>
+  <testcase name="testSignature" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.11"/>
+  <testcase name="testLargeSignatures" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.089"/>
+  <testcase name="testVRFSignatures" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.029"/>
+  <testcase name="testGeScalarMult" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

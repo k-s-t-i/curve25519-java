@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.whispersystems.curve25519.JavaCurve25519Test" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-27T21:06:38" hostname="Kabirs-MacBook-Pro.local" time="0.33">
+  <properties/>
+  <testcase name="testCheckProvider" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.004"/>
+  <testcase name="testAgreement" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.018"/>
+  <testcase name="testRandomAgreements" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.122"/>
+  <testcase name="testSignature" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.088"/>
+  <testcase name="testLargeSignatures" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.056"/>
+  <testcase name="testVRFSignature" classname="org.whispersystems.curve25519.JavaCurve25519Test" time="0.04"/>
+  <system-out><![CDATA[[25, 114, 45, -41, 104, -98, 91, -80, 46, 8, 67, 37, 6, -83, 110, -17, -94, -126, 27, 19, -55, 37, 62, -52, 89, 92, 110, 104, -56, -67, -47, 62, -13, -35, 92, 87, -73, -62, 92, -105, 11, -126, -45, -91, 33, 78, -100, -50, 83, -2, 21, -116, 107, 39, -108, -126, -88, 77, -94, 89, -84, -15, -88, 12, -128, -39, -16, 12, 108, -26, 101, 83, -88, 54, 59, 116, 117, -47, 127, -73, -36, -6, -81, -94, -66, 80, -27, -25, 90, 12, 39, -124, 8, 1, 114, 12]
+h_scalar: [-13, -35, 92, 87, -73, -62, 92, -105, 11, -126, -45, -91, 33, 78, -100, -50, 83, -2, 21, -116, 107, 39, -108, -126, -88, 77, -94, 89, -84, -15, -88, 12]
+h_calc_scalar: [55, -27, -69, 99, -35, 80, -71, 105, 50, -81, 93, -85, 14, -106, -17, -128, 110, -103, -106, 0, 99, -88, 67, -38, -64, -123, 83, -16, 87, 23, 85, 6]
+verify 20
+ret_val: -1
+FAILED!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
